@@ -1,7 +1,7 @@
 
 package JacobiAlgorithm;
 
-
+//eiei
 public class JacobiMethod {
 public static void main(String[] args) {
 

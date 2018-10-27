@@ -5,7 +5,7 @@ package JacobiAlgorithm;
 public class JacobiMethod {
 public static void main(String[] args) {
 
-        double[][] equation = {{19,3,2,9},{3,15,1,11},{1,2,-3,10}};
+        double[][] equation = {{10,2,3,4},{5,11,10,20},{1,2,-3,35}}; // new v.1
         solve(equation);
         
     }
@@ -73,4 +73,4 @@ public static void main(String[] args) {
         return maxErr;
     }
 
-}
+} 

@@ -59,7 +59,7 @@ public static void main(String[] args) {
     }
     
     static double checkErr(double[] prevX,double[] X,double eps){
-        //Math.abs((xNew-xOld)/xNew
+        Math.abs((xNew-xOld)/xNew
         double maxErr = 0f;
         double err = 0f;
         for(int i=0 ; i < prevX.length ; i++){

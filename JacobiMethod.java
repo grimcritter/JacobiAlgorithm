@@ -67,6 +67,7 @@ public static void main(String[] args) {
             System.out.printf("%16.4fP",err);
             if(err>maxErr){
                 maxErr = err;
+                //System.out.println("hacktoberfest",maxErr);
             }
         }
 

@@ -4,7 +4,10 @@ package JacobiAlgorithm;
 
 public class JacobiMethod {
 public static void main(String[] args) {
-        double[][] equation = {{19,3,2,9},{3,15,1,11},{1,2,-3,10}};
+        double[][] equation = {
+                        {19, 3, 2, 9},
+                        {3, 15, 1, 11},
+                        {1, 2, -3, 10}};
         solve(equation);
         
     }
